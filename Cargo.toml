@@ -3,3 +3,11 @@ name = "reqwest-progress"
 version = "0.1.0"
 authors = ["Nikolai Kuklin <nickkuklin@gmail.com>"]
 edition = "2018"
+
+[dependencies]
+async-stream = "0.3"
+indicatif = "0.15"
+reqwest = { version = "0.10", features = ["stream"] }
+serde_json = "1.0"
+tokio = { version = "0.2", features = ["fs", "macros", "stream"] }
+tokio-util = { version = "0.3", features = ["codec"] }
