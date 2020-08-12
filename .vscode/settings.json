@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "rust.all_targets": false,
+  // "rust.build_on_save": true,
+  "rust.clippy_preference": "on",
+  "rust.wait_to_build": 200,
+}
